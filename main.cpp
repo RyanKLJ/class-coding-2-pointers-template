@@ -13,20 +13,21 @@ namespace example1 {
         //pointers basic 1
         //TODO 1 - create var1 of type int
         //TODO 1 - create a character array var2 that can hold 10 elements
-
+        int var1;
+        char var2[10];
 
         //TODO 1
         cout << "Size of var1 variable: ";
-
+        cout << "4 bytes" << endl;
         //TODO 1
         cout << "Size of var2 variable: ";
-
+        cout << "10 elements" << endl;
         //TODO 1
         cout << "Address of var1 variable: ";
-
+        cout << &var1 << endl;
         //TODO 1
         cout << "Address of var2 variable: ";
-
+        cout << &var2 << endl;
     }
 }
 
